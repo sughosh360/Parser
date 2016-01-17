@@ -16,7 +16,7 @@ class String_Parser
 		int i = 0;
 		do
 		{
-			buffer[i++] = number/10 +'0';
+			buffer[i++] = (char)(number/10 +'0');
 			number/=10;
 		}
 		while(number!=0);
